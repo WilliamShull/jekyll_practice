@@ -20,7 +20,8 @@ layout: search
         "url": "{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% enduless %}
-    };
+    {% endfor %}
+  };
   </script>
   <script srs="/js/lunr.min.js"></script>
   <script src="/js/search.js"></script>
