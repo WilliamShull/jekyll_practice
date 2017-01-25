@@ -56,4 +56,4 @@ function displaySearchResults(results, store) {
     searchResults.innerHTML = '<li>No results found</li>';
   }
 }
-}();
+})();
